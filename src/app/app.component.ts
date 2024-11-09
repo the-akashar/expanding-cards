@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ExpandingCardComponent } from "./expanding-card/expanding-card.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ExpandingCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
